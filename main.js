@@ -46,7 +46,7 @@ window.onload = () => {
     let pathName = window.location.pathname;
 
     localStorage.setItem("prevColor", (pathName.includes("contact"))?"#46B3A5":(pathName.includes("projects"))?"#FE4773":(pathName.includes("about"))?"#F6D68D":localStorage.getItem("prevColor"))
-    if(pathName.includes("projects")){
+    if(pathName.includes("projects.html")){
         addProjects();
     }
     transitionELM.classList.remove('is-active');
