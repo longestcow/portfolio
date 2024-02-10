@@ -1,5 +1,37 @@
 const projectsData = [
   {
+    "name": "Outer Wilds",
+    "year": 2024,
+    "status": "finished",
+    "desc": "3d physics n-body simulation",
+    "lang": ["p5js"],
+    "links": ["https://github.com/longestcow/OuterWilds"]
+  },
+  {
+    "name": "3D Cellular Automata",
+    "year": 2024,
+    "status": "finished",
+    "desc": "cellular automata + new dimension",
+    "lang": ["p5js"],
+    "links": ["https://longestcow.github.io/3DGameOfLife/"]
+  },
+  {
+    "name": "WFC - Tubes",
+    "year": 2023,
+    "status": "finished",
+    "desc": "wave function collapse with tubes",
+    "lang": ["p5js"],
+    "links": ["https://longestcow.github.io/WaveFunctionCollapse/WFCTubes/"]
+  },
+  {
+    "name": "WFC - Islands",
+    "year": 2023,
+    "status": "finished",
+    "desc": "wave function collapse with islands",
+    "lang": ["p5js"],
+    "links": ["https://longestcow.github.io/WaveFunctionCollapse/WFCIslands/"]
+  },
+  {
     "name": "Subterranaut",
     "year": 2023,
     "status": "finished",
@@ -19,7 +51,7 @@ const projectsData = [
     "name": "evolution",
     "year": 2023,
     "status": "finished",
-    "desc": "simulation of the concept of evolution",
+    "desc": "simulation of genetic evolution",
     "lang": ["java"],
     "links": ["https://github.com/longestcow/Evolution"]
   },
