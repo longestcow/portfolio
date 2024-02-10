@@ -5,7 +5,7 @@ const projectsData = [
     "status": "finished",
     "desc": "3d physics n-body simulation",
     "lang": ["p5js"],
-    "links": ["https://github.com/longestcow/OuterWilds"]
+    "links": ["https://longestcow.github.io/OuterWilds"]
   },
   {
     "name": "3D Cellular Automata",
