@@ -36,6 +36,13 @@ function clicked(i){
     document.getElementById('transELM').style.backgroundColor=((i==1)?'#FE4773':(i==2)?'#F6D68D':'#46B3A5');
 }
 
+function infoTab(st){
+    let und2 = document.getElementById("und2");
+    document.getElementById("about").innerHTML=st;
+    document.getElementById("about").appendChild(und2);
+
+}
+
 function transLoaded(){
     document.getElementById('transELM').style.backgroundColor=localStorage.getItem("prevColor");
     console.log("aaaaaaaaaaaaaaaa")

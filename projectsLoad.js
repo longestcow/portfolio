@@ -1,5 +1,13 @@
 const projectsData = [
   {
+    "name": "Robotic Hand",
+    "year": 2024,
+    "status": "finished",
+    "desc": "computer vision controlled robotic hand",
+    "lang": ["c++", "python"],
+    "links": ["https://github.com/longestcow/roboticHand"]
+  },
+  {
     "name": "Outer Wilds",
     "year": 2024,
     "status": "finished",
