@@ -1,10 +1,18 @@
 const projectsData = [
   {
+    "name": "Pop-purr",
+    "year": 2024,
+    "status": "finished",
+    "desc": "made in 2 days for WTFxIGDC jam",
+    "lang": ["unity (c#)"],
+    "links": ["https://long-cow.itch.io/poppurr"]
+  },
+  {
     "name": "Robotic Hand",
     "year": 2024,
     "status": "finished",
     "desc": "computer vision controlled robotic hand",
-    "lang": ["c++", "python"],
+    "lang": ["arduino (c++)", "python"],
     "links": ["https://github.com/longestcow/roboticHand"]
   },
   {
@@ -44,7 +52,7 @@ const projectsData = [
     "year": 2023,
     "status": "finished",
     "desc": "made in 3 days for Jame Gam #34",
-    "lang": ["Unity"],
+    "lang": ["unity (c#)"],
     "links": ["https://long-cow.itch.io/subterranaut"]
   },
   {
@@ -52,7 +60,7 @@ const projectsData = [
     "year": 2023,
     "status": "finished",
     "desc": "made in 48 hours for saskatoon game jam",
-    "lang": ["Unity"],
+    "lang": ["unity (c#)"],
     "links": ["https://aeonshaka.itch.io/gravity-bros"]
   },
   {
@@ -92,7 +100,7 @@ const projectsData = [
     "year": 2023,
     "status": "finished",
     "desc": "its tictactoe but uh you can't win",
-    "lang": ["java", "unity"],
+    "lang": ["java", "unity (c#)"],
     "links": ["https://github.com/longestcow/titato"]
   },
   {
@@ -100,7 +108,7 @@ const projectsData = [
     "year": 2022,
     "status": "unfinished",
     "desc": "its a platformer",
-    "lang": ["unity"],
+    "lang": ["unity (c#)"],
     "links": ["https://github.com/longestcow/platformer"]
   },
   {
@@ -108,7 +116,7 @@ const projectsData = [
     "year": 2023,
     "status": "unfinished",
     "desc": "i made this for a school project",
-    "lang": ["unity"],
+    "lang": ["unity (c#)"],
     "links": ["https://github.com/longestcow/platformFighter"]
   },
   {
