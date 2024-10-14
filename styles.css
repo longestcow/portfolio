@@ -30,7 +30,7 @@
     transform: translate(-50%, -50%);
     color: white;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 1.3vw;
     line-height: 1.8;
     top: 42.5%;
     left: 50%;
@@ -41,7 +41,7 @@
     position: absolute;
     top: 45%;
     transform: translate(-50%, -50%);
-    font-size: 90px;
+    font-size: 5vw;
     font-weight: bold;
     display: flex;
     align-items: flex-end;
@@ -52,7 +52,7 @@
     position: absolute;
     top: 7%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+    font-size: 1.55vw;
     font-weight: bold;
     display: flex;
     align-items: flex-end;
@@ -130,6 +130,7 @@
     top: 30%;
     display: flex;
     align-items: flex-end;
+    font-size: 2.1vw;
   }
   
   #title {
@@ -138,7 +139,7 @@
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
+    font-size: 3vw;
     user-select: none;
   }
   
@@ -149,13 +150,15 @@
     top: 7%;
     left: 10%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
+    font-size: 2vw;
     font-weight: bold;
   }
   
   .logo {
-    margin-right: 10px;
+    margin-right: 0.5vw;
     position: relative;
+    width:2vw;
+
   }
   
   
@@ -166,6 +169,7 @@
     transform: translate(-50%, -50%);
     user-select: none;
     visibility: hidden;
+    width:3vw;
   }
   
   
@@ -246,16 +250,19 @@
   #contactParent {
     position: relative;
     top: 50%;
+    max-width: fit-content;
+    margin-inline: auto;
   }
   
   #contactParent>* {
     /*direct descendant > */
-    margin: 20px;
+    margin: 1vw;
   }
   
   #discord {
     filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(77%) contrast(91%);
     transition: 0.15s ease-out;
+    
   }
   
   #discord:hover {
@@ -282,36 +289,55 @@
   }
   
   #instaBot {
-    transform: translate(0, -50%);
-    top: 22.5%;
-    position: absolute;
     z-index: -1;
+    position: absolute;
     filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(77%) contrast(91%);
+    top: -0.6vw;
   }
   
-  #email {
+  #itch {
     filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(77%) contrast(91%);
     transition: 0.125s ease-out;
   }
   
-  #email:hover {
+  #itch:hover {
     filter: brightness(0) saturate(100%) invert(22%) sepia(75%) saturate(2146%) hue-rotate(341deg) brightness(103%) contrast(98%);
   }
+
+  #github {
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(77%) contrast(91%);
+    transition: 0.125s ease-out;
+  }
   
+  #github:hover {
+    filter: brightness(0) saturate(100%) invert(13%) sepia(73%) saturate(4128%) hue-rotate(280deg) brightness(96%) contrast(111%);
+  }
+
   .cardComp {
     color: white;
     text-align: left;
   }
   
   .mainCard {
-    width: 18rem;
-    height: 10rem;
+    width: 15vw;
+    height: 8vw;
     background-color: rgb(31, 31, 31);
-    border-style: groove;
+    border-style: solid;
     border-color: rgb(20, 20, 20);
     border-width: thin;
     transition: 0.1s ease-out;
-    margin: 5px;
+    margin: 0.3vw;
+    box-sizing: border-box; 
+  }
+
+
+  #cardsHolder {
+    position: absolute;
+    top: 35%;
+    transform: translate(-50%, 0);
+    left: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
   
   .mainCard:hover {

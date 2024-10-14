@@ -1,5 +1,13 @@
 const projectsData = [
   {
+    "name": "Lab-Rat",
+    "year": 2024,
+    "status": "finished",
+    "desc": "made in 2 days for saskatoon game jam",
+    "lang": ["unity (c#)"],
+    "links": ["https://long-cow.itch.io/lab-rat"]
+  },
+  {
     "name": "Pop-purr",
     "year": 2024,
     "status": "finished",
@@ -145,19 +153,20 @@ addProjects = function() {
     mainCard.className = 'card mainCard';
     var cardBody = document.createElement("div");
     cardBody.className = 'card-body';
+    cardBody.style="padding: 0.85vw;"
     mainCard.appendChild(cardBody);
 
-    var title = createELM("p", "card-title cardComp", "margin-bottom:15px", "");
+    var title = createELM("p", "card-title cardComp", "margin-bottom:0.8vw; font-size:0.85vw", "");
     var titleLink = createELM("a", "pLink", "", projInfo["name"]);
     titleLink.href = projInfo["links"][0];
     titleLink.target = "_blank";
     title.appendChild(titleLink);
     cardBody.appendChild(title);
 
-    var yearStatus = createELM("p", "card-subtitle mb-2 text-body-secondary cardComp", "font-size:0.85em;margin-bottom:5px", projInfo["year"] + " - " + projInfo["status"])
+    var yearStatus = createELM("p", "card-subtitle text-body-secondary cardComp", "font-size:0.7vw;margin-bottom:0.4vw;", projInfo["year"] + " - " + projInfo["status"])
     cardBody.appendChild(yearStatus);
 
-    var desc = createELM("p", "card-text cardComp", "font-size:0.8em;color:#999999;margin-bottom:8px", projInfo["desc"])
+    var desc = createELM("p", "card-text cardComp", "font-size:0.65vw;color:#999999;margin-bottom:0.5vw;", projInfo["desc"])
     cardBody.appendChild(desc);
     var curText = "";
     for (var j = 0; j < projInfo["lang"].length; j++) {
@@ -167,7 +176,7 @@ addProjects = function() {
       curText += projInfo["lang"][j];
     }
 
-    var langs = createELM("p", "card-text cardComp", "font-size:0.8em;color:#FE4773;margin-bottom:5px", curText);
+    var langs = createELM("p", "card-text cardComp", "font-size:0.65vw;color:#FE4773", curText);
 
     cardBody.appendChild(langs);
 
