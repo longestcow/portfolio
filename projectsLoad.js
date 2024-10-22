@@ -85,7 +85,7 @@ const projectsData = [
     "status": "finished",
     "desc": "literally this site",
     "lang": ["html", "js", "css"],
-    "links": ["https://github.com/longestcow/portfolio"]
+    "links": ["https://longestcow.github.io/portfolio/projects.html"]
   },
   {
     "name": "connect4",
