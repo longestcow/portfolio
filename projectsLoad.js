@@ -1,5 +1,13 @@
 const projectsData = [
   {
+    "name": "Hexapod",
+    "year": 2024,
+    "status": "in development",
+    "desc": "cool 6-legged robot",
+    "lang": ["arduino (c++), unity (c#)"],
+    "links": ["https://github.com/longestcow/hexapod"]
+  },
+  {
     "name": "Lab-Rat",
     "year": 2024,
     "status": "finished",
@@ -32,12 +40,36 @@ const projectsData = [
     "links": ["https://longestcow.github.io/OuterWilds"]
   },
   {
+    "name": "Polemos",
+    "year": 2024,
+    "status": "demo available",
+    "desc": "online multiplayer fighting game",
+    "lang": ["unity (c#)"],
+    "links": ["https://longestcow.github.io/3DGameOfLife/"]
+  },
+  {
     "name": "3D Cellular Automata",
     "year": 2024,
     "status": "finished",
     "desc": "cellular automata + new dimension",
     "lang": ["p5js"],
     "links": ["https://longestcow.github.io/3DGameOfLife/"]
+  },
+  {
+    "name": "Exoplanets",
+    "year": 2024,
+    "status": "finished",
+    "desc": "educational game made for NASA space apps",
+    "lang": ["unity (c#)"],
+    "links": ["https://longestcow.github.io/ExoplanetsNASA/"]
+  },
+  {
+    "name": "Sumobot",
+    "year": 2024,
+    "status": "finished",
+    "desc": "made for SaskPolytechnic Robot Rumble",
+    "lang": ["arduino (c++)"],
+    "links": ["https://github.com/longestcow/sumobot"]
   },
   {
     "name": "WFC - Tubes",
@@ -85,20 +117,20 @@ const projectsData = [
     "status": "finished",
     "desc": "literally this site",
     "lang": ["html", "js", "css"],
-    "links": ["https://longestcow.github.io/portfolio/projects.html"]
+    "links": ["https://longestcow.github.io/portfolio/"]
   },
   {
     "name": "connect4",
     "year": 2023,
-    "status": "unfinished",
-    "desc": "its connect4 but uh you can't win",
+    "status": "finished",
+    "desc": "its connect4 but you can't win",
     "lang": ["java"],
     "links": ["https://github.com/longestcow/connect4"]
   },
   {
     "name": "MemesUploader",
     "year": 2023,
-    "status": "unfinished",
+    "status": "finished",
     "desc": "automating creation and upload of meme compilations",
     "lang": ["java"],
     "links": ["https://github.com/longestcow/MemesUploader"]
@@ -107,23 +139,23 @@ const projectsData = [
     "name": "titato",
     "year": 2023,
     "status": "finished",
-    "desc": "its tictactoe but uh you can't win",
+    "desc": "its tictactoe but you can't win",
     "lang": ["java", "unity (c#)"],
     "links": ["https://github.com/longestcow/titato"]
   },
   {
     "name": "platformer",
     "year": 2022,
-    "status": "unfinished",
-    "desc": "its a platformer",
+    "status": "demo available",
+    "desc": "first major game dev project",
     "lang": ["unity (c#)"],
-    "links": ["https://github.com/longestcow/platformer"]
+    "links": ["https://long-cow.itch.io/platformer"]
   },
   {
     "name": "platform fighter",
     "year": 2023,
-    "status": "unfinished",
-    "desc": "i made this for a school project",
+    "status": "demo available",
+    "desc": "game inspried by smash",
     "lang": ["unity (c#)"],
     "links": ["https://github.com/longestcow/platformFighter"]
   },
