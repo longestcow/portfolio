@@ -45,7 +45,7 @@ const projectsData = [
     "status": "demo available",
     "desc": "online multiplayer fighting game",
     "lang": ["unity (c#)"],
-    "links": ["https://longestcow.github.io/3DGameOfLife/"]
+    "links": ["https://long-cow.itch.io/polemos"]
   },
   {
     "name": "3D Cellular Automata",
