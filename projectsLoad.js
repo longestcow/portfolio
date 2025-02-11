@@ -1,11 +1,19 @@
 const projectsData = [
   {
     "name": "Hexapod",
-    "year": 2024,
+    "year": 2025,
     "status": "in development",
     "desc": "cool 6-legged robot",
     "lang": ["arduino (c++), unity (c#)"],
     "links": ["https://github.com/longestcow/hexapod"]
+  },
+  {
+    "name": "particle life",
+    "year": 2025,
+    "status": "finished",
+    "desc": "life-like patterns emerging from particles",
+    "lang": ["unity (c#)"],
+    "links": ["https://github.com/longestcow/particleLife"]
   },
   {
     "name": "Lab-Rat",
