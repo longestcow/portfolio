@@ -16,6 +16,14 @@ const projectsData = [
     "links": ["https://github.com/longestcow/particleLife"]
   },
   {
+    "name": "scribrawl",
+    "year": 2025,
+    "status": "in development",
+    "desc": "online pvp game about scribbling and brawling",
+    "lang": ["unity (c#)"],
+    "links": ["https://github.com/longestcow/scribrawl/"]
+  },
+  {
     "name": "Lab-Rat",
     "year": 2024,
     "status": "finished",
