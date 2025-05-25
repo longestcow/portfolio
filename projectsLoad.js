@@ -4,8 +4,16 @@ const projectsData = [
     "year": 2025,
     "status": "in development",
     "desc": "cool 6-legged robot",
-    "lang": ["arduino (c++), unity (c#)"],
+    "lang": ["arduino (c++), unity (c#), inventor"],
     "links": ["https://github.com/longestcow/hexapod"]
+  },
+  {
+    "name": "sumobot v2",
+    "year": 2025,
+    "status": "finished",
+    "desc": "made (again) for SaskPolytech robot rumble",
+    "lang": ["arduino (c++), inventor"],
+    "links": ["https://github.com/longestcow/sumobotV2"]
   },
   {
     "name": "particle life",
@@ -16,9 +24,17 @@ const projectsData = [
     "links": ["https://github.com/longestcow/particleLife"]
   },
   {
-    "name": "scribrawl",
+    "name": "strandbeest",
     "year": 2025,
     "status": "in development",
+    "desc": "organic looking linkage mechanism",
+    "lang": ["inventor"],
+    "links": ["https://github.com/longestcow/strandbeest"]
+  },
+  {
+    "name": "scribrawl",
+    "year": 2025,
+    "status": "prototype",
     "desc": "online pvp game about scribbling and brawling",
     "lang": ["unity (c#)"],
     "links": ["https://github.com/longestcow/scribrawl/"]
@@ -83,8 +99,8 @@ const projectsData = [
     "name": "Sumobot",
     "year": 2024,
     "status": "finished",
-    "desc": "made for SaskPolytechnic Robot Rumble",
-    "lang": ["arduino (c++)"],
+    "desc": "made for SaskPolytechnic robot rumble",
+    "lang": ["arduino (c++), inventor"],
     "links": ["https://github.com/longestcow/sumobot"]
   },
   {
