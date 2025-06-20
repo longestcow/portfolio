@@ -16,6 +16,15 @@ const projectsData = [
     "links": ["https://github.com/longestcow/sumobotV2"]
   },
   {
+    "name": "electric screwdriver",
+    "year": 2025,
+    "status": "finished",
+    "desc": "side quest while making the strandbeest",
+    "lang": ["inventor"],
+    "links": ["https://github.com/longestcow/screwdriver"]
+
+  },
+  {
     "name": "particle life",
     "year": 2025,
     "status": "finished",
@@ -26,7 +35,7 @@ const projectsData = [
   {
     "name": "strandbeest",
     "year": 2025,
-    "status": "in development",
+    "status": "kinda finished",
     "desc": "organic looking linkage mechanism",
     "lang": ["inventor"],
     "links": ["https://github.com/longestcow/strandbeest"]
