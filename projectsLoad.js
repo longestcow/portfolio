@@ -97,14 +97,6 @@ const projectsData = [
     "links": ["https://longestcow.github.io/3DGameOfLife/"]
   },
   {
-    "name": "Exoplanets",
-    "year": 2024,
-    "status": "finished",
-    "desc": "educational game made for NASA space apps",
-    "lang": ["unity (c#)"],
-    "links": ["https://longestcow.github.io/ExoplanetsNASA/"]
-  },
-  {
     "name": "Sumobot",
     "year": 2024,
     "status": "finished",
@@ -135,14 +127,6 @@ const projectsData = [
     "desc": "made in 3 days for Jame Gam #34",
     "lang": ["unity (c#)"],
     "links": ["https://long-cow.itch.io/subterranaut"]
-  },
-  {
-    "name": "GravityGuys",
-    "year": 2023,
-    "status": "finished",
-    "desc": "made in 48 hours for saskatoon game jam",
-    "lang": ["unity (c#)"],
-    "links": ["https://aeonshaka.itch.io/gravity-bros"]
   },
   {
     "name": "evolution",
