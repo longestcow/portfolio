@@ -8,6 +8,14 @@ const projectsData = [
     "links": ["https://github.com/longestcow/hexapod"]
   },
   {
+    "name": "pill dispenser",
+    "year": 2026,
+    "status": "finished",
+    "desc": "apsc 171 final project",
+    "lang": ["arduino (c++), solidworks"],
+    "links": ["https://youtu.be/NyqUwpdmJ5w?si=SAIx2Uo4ZxgKSwk7"]
+  },
+  {
     "name": "sumobot v2",
     "year": 2025,
     "status": "finished",
